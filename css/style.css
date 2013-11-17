@@ -1,0 +1,99 @@
+/* line 3, ../sass/style.scss */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+/* line 9, ../sass/style.scss */
+.page-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* line 16, ../sass/style.scss */
+form {
+  padding: 10px 0 30px;
+}
+/* line 18, ../sass/style.scss */
+form label {
+  width: 20%;
+  display: inline-block;
+  font-size: 16px;
+}
+/* line 23, ../sass/style.scss */
+form p {
+  margin: 30px 0;
+}
+/* line 26, ../sass/style.scss */
+form input[type="email"] {
+  width: 60%;
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+}
+/* line 32, ../sass/style.scss */
+form select {
+  width: 170px;
+}
+/* line 35, ../sass/style.scss */
+form input[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* line 42, ../sass/style.scss */
+.status {
+  font-size: 12px;
+  margin-left: 103px;
+}
+
+/* line 47, ../sass/style.scss */
+.btn-container {
+  overflow: hidden;
+}
+
+/* line 51, ../sass/style.scss */
+.btn {
+  float: left;
+  padding: 15px 20px;
+  color: white;
+  background: #657bcf;
+  margin: 10px 15px 0 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+/* line 60, ../sass/style.scss */
+.btn:hover {
+  background: #526ac9;
+}
+
+/* line 65, ../sass/style.scss */
+table {
+  width: 100%;
+  margin: 30px 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 71, ../sass/style.scss */
+table th {
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+/* line 76, ../sass/style.scss */
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
